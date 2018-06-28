@@ -17,7 +17,7 @@ namespace EssentialTools.Controllers
             new Product {Name = "Угловой флажок", Category = "Футбол", Price = 34.95M}
         };
 
-
+        // This is action method!!!
         public ActionResult Index()
         {
             IKernel ninjectKernel = new StandardKernel();
