@@ -18,6 +18,7 @@ namespace EssentialTools.Controllers
         };
 
         // This is action method!!!
+        // new branche
         public ActionResult Index()
         {
             IKernel ninjectKernel = new StandardKernel();
